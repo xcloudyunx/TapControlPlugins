@@ -1,7 +1,7 @@
 import sys
 import json
 
-__name = "template"
+__name = "test"
 __properties = {
 	# reserved property names
 	# page
