@@ -1,0 +1,13 @@
+{
+	"name": "TC-pluginList",
+	"plugins": [
+		{
+			"name": "template",
+			"version": "0.0.0",
+			"file": "https://github.com/xcloudyunx/TapControlPlugins/tree/main/template/template.py",
+			"description": "This is the description for the plugin template.\r\nNewline.",
+			"author": "Yunge Yu",
+			"homepage": "https://github.com/xcloudyunx/TapControlPlugins/tree/main/template"
+		}
+	]
+}
