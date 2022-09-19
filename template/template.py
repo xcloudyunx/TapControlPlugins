@@ -2,7 +2,7 @@ import sys
 import json
 
 __name = "template"
-__version = "0.0.2"
+__version = "0.0.1"
 __properties = {
 	# reserved property names
 	# page
@@ -22,7 +22,8 @@ __properties = {
 	},
 	"property3":{
 		"type":"text",
-		"required":False
+		"required":False,
+		"settings":""
 	}
 }
 # user typing???

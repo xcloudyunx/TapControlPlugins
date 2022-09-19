@@ -2,7 +2,7 @@
 	"plugins": [
 		{
 			"name": "template",
-			"version": "0.0.2",
+			"version": "0.0.1",
 			"file": "https://raw.githubusercontent.com/xcloudyunx/TapControlPlugins/main/template/template.py",
 			"description": "This is the description for the plugin template.\r\nNewline.",
 			"author": "Yunge Yu",
