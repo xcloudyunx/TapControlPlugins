@@ -19,6 +19,10 @@ __properties = {
 		"required":False,
 		"settings":"(*.png)|*.png"
 		# "settings":"filetypename (*.extension1,*.extension2,...)|*.extension1;*.extension2;..."
+	},
+	"property3":{
+		"type":"text",
+		"required":False
 	}
 }
 # user typing???
