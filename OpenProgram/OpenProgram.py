@@ -1,33 +1,21 @@
 import sys
 import json
+import os
 
-__name = "template"
-__version = "0.0.1"
+__name = "OpenProgram"
+__version = "0.0.0"
 __properties = {
 	# reserved property names
 	# page
 	# id
 	# name
 	# image
-	"property1":{
-		"type":"choice",
-		"required":True,
-		"settings":["option1", "option2"]
-	},
-	"property2":{
+	"Program":{
 		"type":"file",
-		"required":False,
-		"settings":"(*.png)|*.png"
-		# "settings":"filetypename (*.extension1,*.extension2,...)|*.extension1;*.extension2;..."
-	},
-	"property3":{
-		"type":"text",
-		"required":False,
+		"required":True,
 		"settings":""
 	}
 }
-# user typing???
-# recording macro????
 
 def getName():
 	return __name
@@ -52,8 +40,8 @@ def run(args):
 			raise Exception(prop+" is a required property")
 	
 	# handle running
-	print(properties)
-	print("yay everything runs")
+	# will need to consider spaces in the filename
+	os.system("start "+properties["Program"])
 
 if len(sys.argv) < 2:
 	raise Exception("need to provide arguments")
