@@ -7,6 +7,22 @@
 			"description": "This is the description for the plugin template.\r\nNewline.",
 			"author": "Yunge Yu",
 			"homepage": "https://github.com/xcloudyunx/TapControlPlugins/tree/main/template"
+		},
+		{
+			"name": "OpenProgram",
+			"version": "0.0.0",
+			"file": "https://raw.githubusercontent.com/xcloudyunx/TapControlPlugins/main/OpenProgram/OpenProgram.py",
+			"description": "Open a program or file.",
+			"author": "Yunge Yu",
+			"homepage": "https://github.com/xcloudyunx/TapControlPlugins/tree/main/OpenProgram"
+		},
+		{
+			"name": "CommandLine",
+			"version": "0.0.0",
+			"file": "https://raw.githubusercontent.com/xcloudyunx/TapControlPlugins/main/CommandLine/CommandLine.py",
+			"description": "Run a cmd command.",
+			"author": "Yunge Yu",
+			"homepage": "https://github.com/xcloudyunx/TapControlPlugins/tree/main/CommandLine"
 		}
 	]
 }
