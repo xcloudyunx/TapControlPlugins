@@ -23,6 +23,14 @@
 			"description": "Run a cmd command.",
 			"author": "Yunge Yu",
 			"homepage": "https://github.com/xcloudyunx/TapControlPlugins/tree/main/CommandLine"
+		},
+		{
+			"name": "MediaControls",
+			"version": "0.0.0",
+			"file": "https://raw.githubusercontent.com/xcloudyunx/TapControlPlugins/main/MediaControls/MediaControls.py",
+			"description": "Media controls with the following functionality:\r\nPlay/Pause\r\nNext/Previous Track\r\nVolume Mute/Down/Up\r\nMic Mute",
+			"author": "Yunge Yu",
+			"homepage": "https://github.com/xcloudyunx/TapControlPlugins/tree/main/CommandLine"
 		}
 	]
 }

@@ -40,8 +40,7 @@ def run(args):
 			raise Exception(prop+" is a required property")
 	
 	# handle running
-	# will need to consider spaces in the filename
-	os.system("start "+properties["Program"])
+	os.system("\""+properties["Program"]+"\"")
 
 if len(sys.argv) < 2:
 	raise Exception("need to provide arguments")
