@@ -9,21 +9,31 @@ __properties = {
 	# id
 	# name
 	# image
-	"property1":{
+	"choiceTest":{
 		"type":"choice",
 		"required":True,
 		"settings":["option1", "option2"]
 	},
-	"property2":{
+	"fileTest":{
 		"type":"file",
 		"required":False,
 		"settings":"(*.png)|*.png"
 		# "settings":"filetypename (*.extension1,*.extension2,...)|*.extension1;*.extension2;..."
 	},
-	"property3":{
+	"textStringTest":{
 		"type":"text",
 		"required":False,
 		"settings":"string" # "string", "integer", "decimal"
+	},
+	"textIntegerTest":{
+		"type":"text",
+		"required":False,
+		"settings":"integer" # "string", "integer", "decimal"
+	},
+	"textDecimalTest":{
+		"type":"text",
+		"required":False,
+		"settings":"decimal" # "string", "integer", "decimal"
 	}
 }
 # user typing???
