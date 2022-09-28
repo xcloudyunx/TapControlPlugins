@@ -12,7 +12,7 @@ __properties = {
 	"Command":{
 		"type":"text",
 		"required":True,
-		"settings":""
+		"settings":"string"
 	}
 }
 

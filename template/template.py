@@ -23,7 +23,7 @@ __properties = {
 	"property3":{
 		"type":"text",
 		"required":False,
-		"settings":""
+		"settings":"string" # "string", "integer", "decimal"
 	}
 }
 # user typing???
